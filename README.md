@@ -9,29 +9,54 @@ The dataset used for credit card default prediction typically contains historica
 Here is a description of the common features or attributes found in a credit card default prediction dataset:
 
 ID: ID of each client
+
 LIMIT_BAL: Amount of given credit in NT dollars (includes individual and family/supplementary credit
+
+
 SEX: Gender (1=male, 2=female)
+
 EDUCATION: (1=graduate school, 2=university, 3=high school, 4=others, 5=unknown, 6=unknown, 0=unkown)
+
 MARRIAGE: Marital status (1=married, 2=single, 3=others)
+
 AGE: Age in years
+
 PAY_0: Repayment status in September, 2005 (-1=pay duly, 1=payment delay for one month, 2=payment delay for two months,.....,8=payment delay for eight months, 9=payment delay for nine months and above)
+
 PAY_2: Repayment status in August, 2005 (scale same as above
+
 PAY_3: Repayment status in July, 2005 (scale same as above)
+
 PAY_4: Repayment status in June, 2005 (scale same as above)
+
 PAY_5: Repayment status in May, 2005 (scale same as above
+
 PAY_6: Repayment status in April, 2005 (scale same as above)
+
 BILL_AMT1: Amount of bill statement in September, 2005 (NT dollar)
+
 BILL_AMT2: Amount of bill statement in August, 2005 (NT dollar)
+
 BILL_AMT3: Amount of bill statement in July, 2005 (NT dollar)
+
 BILL_AMT4: Amount of bill statement in June, 2005 (NT dollar)
+
 BILL_AMT5: Amount of bill statement in May, 2005 (NT dollar)
+
 BILL_AMT6: Amount of bill statement in April, 2005 (NT dollar)
+
 PAY_AMT1: Amount of previous payment in September, 2005 (NT dollar)
+
 PAY_AMT2: Amount of previous payment in August, 2005 (NT dollar)
+
 PAY_AMT3: Amount of previous payment in July, 2005 (NT dollar)
+
 PAY_AMT4: Amount of previous payment in June, 2005 (NT dollar)
+
 PAY_AMT5: Amount of previous payment in May, 2005 (NT dollar)
+
 PAY_AMT6: Amount of previous payment in April, 2005 (NT dollar)
+
 default.payment.next.month: Default payment (1=yes, 0=no)
 
 ## Project Summary
@@ -47,12 +72,20 @@ Evaluation of credit card default prediction models is typically done using metr
 
 ##  Conclusion
 From all baseline model, Random forest classifier shows highest test accuracy and F1 score and ROC_AUC score.
+
 After cross validation and hyperparameter tunning, XG Boost shows highest test accuracy score of 87.70% and ROC_AUC score is 0.879.
+
 Using a Logistic Regression classifier, we can predict with 82.5% accuracy, whether a customer is likely to default next month.
+
 Using a K-Nearest Neighbour classifier, we can predict with 85.80% accuracy, whether a customer is likely to default next month.
+
 Using a Support Vector Machine classifier, we can predict with 86.70% accuracy, whether a customer is likely to default next month.
+
 Using a Decision Tree classifier, we can predict with 84.00% accuracy, whether a customer is likely to default next month.
+
 Using a Random Forest classifier, we can predict with 87.40% accuracy, whether a customer is likely to default next month.
+
 Using a XGBOOST classifier, we can predict with 87.70% accuracy, whether a customer is likely to default next month.
+
 By performing cross-validation and hyperparameter tuning, we can improve the performance and generalization ability of a machine learning model.
 
