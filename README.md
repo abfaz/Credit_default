@@ -1,4 +1,4 @@
-## Project Name - Bike Sharing Demand Prediction
+## Project Name - Credit Card Default Prediction
 
 
 ## Project Description 
